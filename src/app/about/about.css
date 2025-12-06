@@ -1,84 +1,88 @@
-.about-container {
+.title-container {
     display: flex;
-    flex-direction: column; 
-}
-.content {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 125px;
-    margin-top: 20px;
+    flex-direction: row;
+    gap: 8%;
+    align-items: center;
 }
 
-.text-section {
-    flex: 1;
+.abouttext-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    max-width: 50%;
 }
 
-.image-section img {
-    width: 500px;
+.face-container img {
+    width: 100%;
     height: auto;
+    max-width: 600px;
+    margin-top: 2%;
     object-fit: cover;
-    margin-right: 50px;
 }
 
-
-.header {
-    margin-top: 100px;
-    margin-left:75px;
+.title {
+    margin-inline: 10%;
     font-family: "Palatino Linotype", "Geneva", sans-serif;
-    font-size: 100px;
+    font-size: 8cqw;
     font-weight: 900;
-
+    white-space: nowrap;
 }
 
 .about-text {
-    margin-left: 50px;
-    font-size: 20px;
+    margin-left: 6%;
+    font-size: 1.3cqw;
 }
 
 .policies-header {
-    margin-top: 40px;
-    margin-left:75px;
-    font-family: "Palatino Linotype", "Geneva", sans-serif;
-    font-size: 100px;
-    font-weight: 900;
-}
-
-.energy-header{
     text-align: center;
     font-family: "Palatino Linotype", "Geneva", sans-serif;
-    font-size: 75px;
+    font-size: 7cqw;
     font-weight: 900;
-
 }
 
-.nuclear-content {
+.energy-container {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 100px;
-    margin-top: 20px;
+    flex-direction: row;
+    align-items: center;
+    gap:5%;
 }
 
-.nuclear-container {
-    display: flex;
-    flex-direction: column; 
-}
-
-.nuclear-image{
-    flex-shrink: 0;
-}
-.nuclear-image img {
-    width: 750px;
-    height: auto;
+.nuclear-container img {
+    max-width: 100%;
+    margin-left: 2%;
     object-fit: cover;
-    margin-left: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 2%;
+}
+
+.energy-title {
+    margin-inline: 20%;
+    font-family: "Palatino Linotype", "Geneva", sans-serif;
+    font-size: 7cqw;
+    font-weight: 900;
+    white-space: nowrap;
 }
 
 .nuclear-text{
-    margin-top: 90px;
-    margin-right: 80px;
-    font-size: 20px;
+    font-size: 1.3cqw;
+    width: 100%;
+    height: auto;
+    max-width: 700px;
 
+}
+
+.school-container img {
+    width: 100%;
+    height: auto;
+    max-width: 700px;
+    margin-top: 2%;
+    object-fit: cover;
+    margin-bottom: 4%;
+}
+
+.immigration-title{
+    margin-inline: 3%;
+    font-family: "Palatino Linotype", "Geneva", sans-serif;
+    font-size: 7cqw;
+    font-weight: 900;
+    white-space: nowrap;
 }
