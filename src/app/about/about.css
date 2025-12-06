@@ -1,0 +1,84 @@
+.about-container {
+    display: flex;
+    flex-direction: column; 
+}
+.content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 125px;
+    margin-top: 20px;
+}
+
+.text-section {
+    flex: 1;
+}
+
+.image-section img {
+    width: 500px;
+    height: auto;
+    object-fit: cover;
+    margin-right: 50px;
+}
+
+
+.header {
+    margin-top: 100px;
+    margin-left:75px;
+    font-family: "Palatino Linotype", "Geneva", sans-serif;
+    font-size: 100px;
+    font-weight: 900;
+
+}
+
+.about-text {
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.policies-header {
+    margin-top: 40px;
+    margin-left:75px;
+    font-family: "Palatino Linotype", "Geneva", sans-serif;
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.energy-header{
+    text-align: center;
+    font-family: "Palatino Linotype", "Geneva", sans-serif;
+    font-size: 75px;
+    font-weight: 900;
+
+}
+
+.nuclear-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 100px;
+    margin-top: 20px;
+}
+
+.nuclear-container {
+    display: flex;
+    flex-direction: column; 
+}
+
+.nuclear-image{
+    flex-shrink: 0;
+}
+.nuclear-image img {
+    width: 750px;
+    height: auto;
+    object-fit: cover;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.nuclear-text{
+    margin-top: 90px;
+    margin-right: 80px;
+    font-size: 20px;
+
+}
