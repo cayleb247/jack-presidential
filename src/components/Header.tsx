@@ -6,11 +6,11 @@ import { usePathname } from "next/navigation";
 import { clsx } from "clsx";
 
 export default function Header() {
+
   const pathname = usePathname();
-  console.log(pathname);
 
   return (
-    <div className="bg-white flex box-border justify-between relative overflow-hidden">
+    <div className="bg-white flex box-border justify-between relative overflow-hidden" id="header">
       <div className="absolute z-0 right-0 top-0 w-full h-full">
         <Image
           src="/American-Flag-Wave-Wallpaper-Mural.jpg"
