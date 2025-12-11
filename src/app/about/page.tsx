@@ -35,7 +35,7 @@ export default function About() {
                 <div className="nuclear-text">
                     <h3 className="energy-title"> Energy </h3>
                     <p>
-                        With the rise of AI and an increase in computer server storage requirements energy prices are at an all-time high and grids are becoming maxed out. Nuclear energy provides a clean safe and extremely efficient power generation solution. I will get congress to pass a bill to make it easier to permit and build nuclear power plants and grant 150 billion dollars over 10 years in research funding and subsidies.
+                        With the rise of AI and an increase in computer server storage requirements energy prices are at an all-time high and grids are becoming maxed out. Nuclear energy provides a clean safe and extremely efficient power generation solution. I will get congress to pass a bill to make it easier to permit and build nuclear power plants and grant 150 billion dollars over 10 years.
                     </p>
                 </div>
             </div>
