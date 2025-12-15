@@ -1,0 +1,88 @@
+.title-container {
+    display: flex;
+    flex-direction: row;
+    gap: 8%;
+    align-items: center;
+}
+
+.abouttext-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    max-width: 50%;
+}
+
+.face-container img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    margin-top: 2%;
+    object-fit: cover;
+}
+
+.title {
+    margin-inline: 10%;
+    font-family: "Palatino Linotype", "Geneva", sans-serif;
+    font-size: 8cqw;
+    font-weight: 900;
+    white-space: nowrap;
+}
+
+.about-text {
+    margin-left: 6%;
+    font-size: 1.3cqw;
+}
+
+.policies-header {
+    text-align: center;
+    font-family: "Palatino Linotype", "Geneva", sans-serif;
+    font-size: 7cqw;
+    font-weight: 900;
+}
+
+.energy-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:5%;
+}
+
+.nuclear-container img {
+    max-width: 100%;
+    margin-left: 2%;
+    object-fit: cover;
+    margin-bottom: 2%;
+}
+
+.energy-title {
+    margin-inline: 20%;
+    font-family: "Palatino Linotype", "Geneva", sans-serif;
+    font-size: 7cqw;
+    font-weight: 900;
+    white-space: nowrap;
+}
+
+.nuclear-text{
+    font-size: 1.3cqw;
+    width: 100%;
+    height: auto;
+    max-width: 700px;
+
+}
+
+.school-container img {
+    width: 100%;
+    height: auto;
+    max-width: 700px;
+    margin-top: 2%;
+    object-fit: cover;
+    margin-bottom: 4%;
+}
+
+.immigration-title{
+    margin-inline: 3%;
+    font-family: "Palatino Linotype", "Geneva", sans-serif;
+    font-size: 7cqw;
+    font-weight: 900;
+    white-space: nowrap;
+}
