@@ -1,10 +1,8 @@
-import Header from "@/components/Header";
 import "./about.css";
 
 export default function About() {
     return (
         <div>
-            <Header />
 
 {/* Text on the right image on the left */}
 {/* About Me */}

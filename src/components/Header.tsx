@@ -10,7 +10,7 @@ export default function Header() {
   const pathname = usePathname();
 
   return (
-    <div className="bg-white flex box-border justify-between relative overflow-hidden" id="header">
+    <div className="bg-white flex box-border justify-between relative overflow-hidden font-sans" id="header">
       <div className="absolute z-0 right-0 top-0 w-full h-full">
         <Image
           src="/American-Flag-Wave-Wallpaper-Mural.jpg"
@@ -29,7 +29,7 @@ export default function Header() {
             className="z-10"
           ></Image>
         </div>
-        <div className="font-bold gap-3 flex text-blue-900 justify-end w-3/4 items-center z-10 py-3 px-5">
+        <div className="font-bold gap-3 flex text-foreground justify-end w-3/4 items-center z-10 py-3 px-5">
           <div className="gap-4 flex text-3xl items-center">
             <Link
               href="/"
@@ -61,7 +61,7 @@ export default function Header() {
                 "text-[#D40104]": pathname === "/donate",
               })}
             >
-              <div className="bg-blue-800 text-white px-4 py-2 box-border rounded-2xl">
+              <div className="bg-foreground text-white px-4 py-2 box-border rounded-2xl">
                 <h1>Donate</h1>
               </div>
             </Link>
